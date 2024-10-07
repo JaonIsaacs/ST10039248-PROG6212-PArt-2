@@ -58,6 +58,7 @@
     <Compile Include="ApproveClaimsPage.xaml.cs">
       <DependentUpon>ApproveClaimsPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Claim.cs" />
     <Compile Include="SubmitClaimPage.xaml.cs">
       <DependentUpon>SubmitClaimPage.xaml</DependentUpon>
     </Compile>
