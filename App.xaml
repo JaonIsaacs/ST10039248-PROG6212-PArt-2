@@ -1,0 +1,11 @@
+﻿<Application x:Class="ST10039248_PROG6212.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ST10039248_PROG6212"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <SolidColorBrush x:Key="PrimaryColor" Color="Black"/>
+        <SolidColorBrush x:Key="SecondaryColor" Color="Blue"/>
+        <SolidColorBrush x:Key="TextColor" Color="White"/>
+    </Application.Resources>
+</Application>

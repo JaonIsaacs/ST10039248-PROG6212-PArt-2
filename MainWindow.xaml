@@ -1,0 +1,18 @@
+﻿<Window x:Class="ST10039248_PROG6212.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ST10039248_PROG6212"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="{StaticResource PrimaryColor}">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10">
+            <TextBlock Text="Claim Management" Foreground="{StaticResource TextColor}" FontSize="24"/>
+            <Button Content="Submit a Claim" Width="200" Margin="5" Click="NavigateToSubmitClaim"/>
+            <Button Content="View Claims" Width="200" Margin="5" Click="NavigateToViewClaims"/>
+            <Button Content="Approve/Deny Claims" Width="200" Margin="5" Click="NavigateToApproveClaims"/>
+        </StackPanel>
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
+    </Grid>
+</Window>
